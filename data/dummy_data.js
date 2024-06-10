@@ -25,14 +25,19 @@ export const SERVICES = [
     0,
     [
       
+      
       'El Toyota Supra (en japonés: トヨタ・スープラ Toyota Sūpura) es un automóvil deportivo hatchback de 3 puertas, con motor delantero montado longitudinalmente y de tracción trasera, producido por el fabricante japonés Toyota desde 1978 hasta la actualidad. Hubo una pausa desde 2002 hasta su reinicio en 2019.'
+
+
     ],
+
+    
   
     
   ),
 
   new Service(
-    's1',
+    's2',
     ['c1' ],
     'toyota gt86',
     '',
@@ -48,7 +53,7 @@ export const SERVICES = [
   ),
   
   new Service(
-    's2',
+    's3',
     ['c2' ],
     'Nissan GTR',
     '',
@@ -64,7 +69,7 @@ export const SERVICES = [
   ),
 
   new Service(
-    's2',
+    's4',
     ['c2' ],
     'Nissan Skyline r34',
     '',
@@ -80,7 +85,7 @@ export const SERVICES = [
   ),
 
   new Service(
-    's3',
+    's5',
     ['c3' ],
     'Cybertruck',
     '',
@@ -96,7 +101,7 @@ export const SERVICES = [
   ),
 
   new Service(
-    's4',
+    's6',
     ['c4' ],
     'Dodge Durango',
     '',
@@ -112,7 +117,7 @@ export const SERVICES = [
   ),
 
   new Service(
-    's4',
+    's7',
     ['c4' ],
     'Dodge Charger',
     '',
@@ -128,7 +133,7 @@ export const SERVICES = [
   ),
 
   new Service(
-    's5',
+    's8',
     ['c5' ],
     'Tesla Model S',
     '',
@@ -144,7 +149,7 @@ export const SERVICES = [
   ),
 
   new Service(
-    's5',
+    's9',
     ['c5' ],
     'Tesla Model 3',
     '',
@@ -153,7 +158,7 @@ export const SERVICES = [
     0,
     [
       
-      'El Model S está construido desde cero como un vehículo eléctrico, con una arquitectura de alta resistencia y un paquete de baterías colocado en el piso para una increíble protección de los ocupantes y un bajo riesgo de volcadura.'
+      'Tesla Model 3 es un automóvil eléctrico sedán de cinco plazas fabricado por Tesla. La presentación mundial se hizo el 31 de marzo de 2016 y las primeras 30 entregas se efectuaron el 28 de julio de 2017.1​'
     ],
   
     
@@ -162,7 +167,7 @@ export const SERVICES = [
   
 
   new Service(
-    's6',
+    's10',
     ['c6' ],
     'Chevrolet Sliverado',
     '',
@@ -178,7 +183,7 @@ export const SERVICES = [
   ),
 
   new Service(
-    's6',
+    's11',
     ['c6' ],
     'Chevrolet Camaro',
     '',
@@ -187,29 +192,45 @@ export const SERVICES = [
     0,
     [
       
-      'La Chevrolet Silverado es una camioneta de tamaño completo usualmente de 6 pasajeros, fabricada por la división Chevrolet de General Motors en Estados Unidos, Canadá, México y Venezuela. Motor delantero, tracción trasera.'
+      'El Chevrolet Camaro es un automóvil deportivo de dos puertas, con motor delantero montado longitudinalmente y de tracción trasera, producido por el fabricante estadounidense Chevrolet, división de General Motors (GM) desde 1966.1​ Compartía su plataforma y la mayoría de sus componentes con el Pontiac Firebird, también introducido en 1967.'
     ],
   
     
   ),
   new Service(
-    's7',
+    's12',
     ['c7' ],
-    'Nissan Tsuru',
+    'Acura NSX',
     '',
     '',
-    'https://cdn.buttercms.com/E66G5dgJTEmv8OGAIftV',
+    'https://acnews.blob.core.windows.net/imgnews/paragraph/NPAZ_dcdfa8cbb7e642bea68a24ccb741b266.jpg',
     0,
     [
       
-      'El Tsuru V16 cuenta con un motor de 1.6 litros y cuatro cilindros, con tecnología de 16 válvulas y sistema de inyección de combustible multipunto. Este motor es capaz de generar una potencia máxima de 105 caballos de fuerza y un torque máximo de 107 libras-pie'
+      'El Acura NSX (abreviatura de New Sport eXperimental) es un automóvil deportivo de dos puertas biplaza con motor central-trasero, producido por fabricante japonés Honda entre 1990 y 2005, ofreciendo diferentes versiones tanto en carrocerías cupé como targa. En Estados Unidos y Hong Kong se ha vendido bajo la marca Acura.'
     ],
   
     
   ),
 
   new Service(
-    's8',
+    's13',
+    ['c7' ],
+    'Acura TLX',
+    '',
+    '',
+    'https://img.remediosdigitales.com/8807b0/2560_3000/1366_2000.jpg',
+    0,
+    [
+      
+      'El TLX está listo con un emocionante motor VTEC® turboalimentado de 272 caballos de fuerza * que se combina con las comodidades de primer nivel y la estructura esculpida y atractiva. Elévate a los niveles de rendimiento del Type S y conoce el sedán de Acura más potente hasta el momento.'
+    ],
+  
+    
+  ),
+
+  new Service(
+    's14',
     ['c8' ],
     'Ford Raptor',
     '',
@@ -219,6 +240,22 @@ export const SERVICES = [
     [
       
       'Ford Raptor 2020 está equipada con Terrain Mangement, tecnología que ofrece al conductor la posibilidad de elegir entre seis Modos de Manejo para mejorar la dinámica de conducción en una variedad de condiciones ambientales que incluyen: Normal, Sport, Clima, Lodo, Roca y Carrera en el Desierto.'
+    ],
+  
+    
+  ),
+
+  new Service(
+    's15',
+    ['c8' ],
+    'Ford Ranger',
+    '',
+    '',
+    'https://acnews.blob.core.windows.net/imgnews/large/NAZ_f17b057f8815443f89964694aed86ad9.webp',
+    0,
+    [
+      
+      'Ford Ranger es un nombre usado en dos diferentes líneas de camionetas (pickup) compactas fabricadas por la Ford Motor Company y por un acuerdo de comercialización con Mazda.'
     ],
   
     
