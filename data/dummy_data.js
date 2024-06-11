@@ -5,7 +5,7 @@ import Service from '../models/Service';
 export const CATEGORIES = [
       new Category('c1', 'Toyota', '#5A5A5A'),
       new Category('c2', 'Nissan', '#5A5A5A'),
-      new Category('c3', 'Cybertruck', '#5A5A5A'),
+      new Category('c3', 'Porsche', '#5A5A5A'),
       new Category('c4', 'Dodge', '#5A5A5A'),
       new Category('c5', 'Tesla', '#5A5A5A'),
       new Category('c6', 'Chevrolet', '#5A5A5A'),
@@ -87,15 +87,35 @@ export const SERVICES = [
   new Service(
     's5',
     ['c3' ],
-    'Cybertruck',
+    'Porsche 911',
     '',
     '',
-    'https://www.mundodeportivo.com/urbantecno/hero/2023/07/04_desktop.jpg?width=1200',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Porsche_992_GT3_1X7A0323.jpg/1200px-Porsche_992_GT3_1X7A0323.jpg',
     0,
     [
       
-      'Acelera de 0 a 100 km/h en tan solo 2.7 segundos† en modo bestia, mientras mantienes la estabilidad a alta velocidad. Con la dirección electrónica y la dirección trasera, obtienes el manejo de un deportivo y un mejor radio de giro que la mayoría de los sedanes.'
+      'El Porsche 911 es un automóvil deportivo de lujo producido por el fabricante alemán Porsche AG, desde 1964. A través de los años, ha pasado por varias regeneraciones. De todas formas, muchas de las características del modelo original se conservan, como su configuración «todo atrás», su carrocería coupé fastback, el motor bóxer de seis cilindros y un interior con configuración 2+2 plazas.'
     ],
+
+    
+  
+    
+  ),
+
+  new Service(
+    's16',
+    ['c3' ],
+    'Porsche Cayenne',
+    '',
+    '',
+    'https://cdn.motor1.com/images/mgl/2NAbZp/s3/2024-porsche-cayenne-v8-phev-top-version.jpg',
+    0,
+    [
+      
+      'El Porsche Cayenne es un automóvil todoterreno de lujo del segmento E producido por el fabricante de automóviles alemán Porsche. Es el primer modelo de Porsche que no es un automóvil deportivo, aunque sus prestaciones son equivalentes a las de otros modelos de la marca, destacable su personalidad deportiva, a pesar de viajes en carreteras de montaña. El Cayenne fue reestilizado en 2006, al modificarse parcialmente la estética y la mecánica. '
+    ],
+
+    
   
     
   ),
